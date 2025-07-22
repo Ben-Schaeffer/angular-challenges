@@ -1,6 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 
-import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -18,9 +17,7 @@ const fibonacci = (num: number): number => {
 
 @Component({
   selector: 'app-person-list',
-  standalone: true,
   imports: [
-    CommonModule,
     FormsModule,
     MatListModule,
     MatFormFieldModule,
@@ -30,7 +27,7 @@ const fibonacci = (num: number): number => {
   ],
   template: `
     <h1 class="text-center font-semibold" title="Title">
-      {{ title | titlecase }}
+      {{ title() | titlecase }}
     </h1>
 
     <mat-form-field class="w-4/5">
@@ -55,8 +52,8 @@ const fibonacci = (num: number): number => {
   },
 })
 export class PersonListComponent {
-  @Input() persons: Person[] = [];
-  @Input() title = '';
+  persons = input<Person[]>();
+  title = input('');
 
   label = '';
 

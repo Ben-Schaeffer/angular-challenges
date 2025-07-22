@@ -22,6 +22,10 @@ const sponsors = [
   'apalaio',
   'amosISA',
   'michalgrzegorczyk-dev',
+  'zealotrahl',
+  'DzoeL123',
+  'allan1989',
+  'pchessah',
 ];
 
 module.exports = {

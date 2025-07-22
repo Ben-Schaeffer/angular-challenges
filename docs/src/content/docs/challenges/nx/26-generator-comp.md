@@ -39,7 +39,6 @@ Below are the end result of your generator for a `UserComponent` associated with
 ```ts
 @Component({
   selector: 'app-user',
-  standalone: true,
   imports: [LetDirective],
   providers: [provideComponentStore(UserStore)],
   template: `
@@ -60,7 +59,8 @@ export class UserComponent {
 
 ```ts
 import { Injectable, inject } from '@angular/core';
-import { ComponentStore, OnStateInit, OnStoreInit, tapResponse } from '@ngrx/component-store';
+import { ComponentStore, OnStateInit, OnStoreInit } from '@ngrx/component-store';
+import { tapResponse } from '@ngrx/operators';
 import { mergeMap, pipe, tap } from 'rxjs';
 import { User } from './user.model';
 import { UserService } from './user.service';

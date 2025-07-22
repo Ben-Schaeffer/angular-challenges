@@ -1,12 +1,10 @@
-import { NgFor, NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { availableBooks } from './book.model';
 
 @Component({
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterLink, NgFor, NgIf],
+  imports: [ReactiveFormsModule, RouterLink, RouterLinkActive],
   styles: [
     `
       :host {
@@ -39,9 +37,9 @@ import { availableBooks } from './book.model';
         name="bookName"
         [formControl]="searchBook"
         required />
-      <div class="error" *ngIf="searchBook.errors">
-        Search criteria is required!
-      </div>
+      @if (searchBook.errors) {
+        <div class="error">Search criteria is required!</div>
+      }
     </div>
     <button
       data-cy="borrow-btn"
@@ -54,7 +52,9 @@ import { availableBooks } from './book.model';
     <div>
       <h3>List of books available:</h3>
       <ul>
-        <li *ngFor="let book of books">{{ book.name }} by {{ book.author }}</li>
+        @for (book of books; track $index) {
+          <li>{{ book.name }} by {{ book.author }}</li>
+        }
       </ul>
     </div>
   `,

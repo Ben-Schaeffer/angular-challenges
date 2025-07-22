@@ -24,7 +24,7 @@ If you would like to propose a challenge, this project is open source, so feel f
 
 ## Challenges
 
-Check [all 56 challenges](https://angular-challenges.vercel.app/)
+Check [all 60 challenges](https://angular-challenges.vercel.app/)
 
 ## Contributors ✨
 
@@ -73,6 +73,10 @@ Check [all 56 challenges](https://angular-challenges.vercel.app/)
       <td align="center" valign="top" width="14.28%"><a href="https://enochgao.github.io/"><img src="https://avatars.githubusercontent.com/u/41459067?v=4?s=100" width="100px;" alt="Enoch Gao"/><br /><sub><b>Enoch Gao</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/commits?author=EnochGao" title="Documentation">📖</a> <a href="#translation-ch-EnochGao" title="Translate in Chinese">🇨🇳</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/fpalmab"><img src="https://avatars.githubusercontent.com/u/7729812?v=4?s=100" width="100px;" alt="Francisco Palma"/><br /><sub><b>Francisco Palma</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/issues?q=author%3Afpalmab" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/michalgrzegorczyk-dev"><img src="https://avatars.githubusercontent.com/u/47832176?v=4?s=100" width="100px;" alt="Michał Grzegorczyk"/><br /><sub><b>Michał Grzegorczyk</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/commits?author=michalgrzegorczyk-dev" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tamim36"><img src="https://avatars.githubusercontent.com/u/42251521?v=4?s=100" width="100px;" alt="Tamim Arefin Anik"/><br /><sub><b>Tamim Arefin Anik</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/issues?q=author%3Atamim36" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/WhoisBsa"><img src="https://avatars.githubusercontent.com/u/36895235?v=4?s=100" width="100px;" alt="Matheus B."/><br /><sub><b>Matheus B.</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/issues?q=author%3AWhoisBsa" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sourcerer.io/stefh"><img src="https://avatars.githubusercontent.com/u/249938?v=4?s=100" width="100px;" alt="Stef Heyenrath"/><br /><sub><b>Stef Heyenrath</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/commits?author=StefH" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mathisvester"><img src="https://avatars.githubusercontent.com/u/26164587?v=4?s=100" width="100px;" alt="mathisvester"/><br /><sub><b>mathisvester</b></sub></a><br /><a href="https://github.com/tomalaforge/angular-challenges/issues?q=author%3Amathisvester" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
   <tfoot>

@@ -23,7 +23,6 @@ import { ListItemComponent } from '../../ui/list-item/list-item.component';
       </ng-template>
     </app-card>
   `,
-  standalone: true,
   styles: [
     `
       .bg-light-green {

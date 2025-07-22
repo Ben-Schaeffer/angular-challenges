@@ -10,7 +10,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
       </button>
     </div>
   `,
-  standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ListItemComponent {
   @Output() deleteItem = new EventEmitter<number>();

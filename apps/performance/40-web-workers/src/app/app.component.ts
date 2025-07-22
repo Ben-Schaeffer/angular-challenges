@@ -1,11 +1,9 @@
-import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { HeavyCalculationService } from './heavy-calculation.service';
 import { UnknownPersonComponent } from './unknown-person/unknown-person.component';
 
 @Component({
-  standalone: true,
-  imports: [CommonModule, UnknownPersonComponent],
+  imports: [UnknownPersonComponent],
   providers: [HeavyCalculationService],
   selector: 'app-root',
   template: `
